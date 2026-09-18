@@ -20,6 +20,7 @@
   "homepage": "https://github.com/802-web/typescript-for-javascript-developers#readme",
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^7.0.2"
   }
 }
