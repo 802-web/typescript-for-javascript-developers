@@ -1,6 +1,9 @@
 export {};
 
-let profile = {
+let profile: {
+	name: string;
+	age: number | null;
+} = {
 	name: 'jj',
 	age: null,
 };
