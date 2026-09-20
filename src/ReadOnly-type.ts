@@ -25,3 +25,5 @@ const friends: PersonalDataType = {
 type YomitoriSenyo<T> = {
 	readonly [P in keyof T]: T[P];
 };
+
+type Yomitori = YomitoriSenyo<Profile>;
